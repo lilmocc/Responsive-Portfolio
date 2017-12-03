@@ -1,0 +1,250 @@
+
+html, body {
+	background-image: url('../images/dust.png');
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    padding: 10px;
+}
+
+/* ALL divs in the header */
+.top {
+	background-color: white;
+    height: 85px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 2px solid #CCCCCC;
+    z-index: 1;
+}
+
+.myname {
+	background-color: #4aaaa5;
+	color: #FFFFFF;
+    padding: 10px;
+    margin-left:10%;
+	text-align: center;
+ 	float: left;
+    display: inline-flex;
+}
+
+.navmenu {
+	color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 35px 5% 25px 50px;
+    margin-right: 10%;
+	text-align: center;
+    float: right;
+}
+
+/* ALL divs in the body of the page */
+.middle {
+	clear: both;
+    padding: 30px 10% 30px 10%;
+    margin: 0;
+		max-width; 960px
+    position: static;
+}
+
+.main {
+    float: left;
+    background: #ffffff;
+    height: 100%;
+		width: 60%;
+    max-width: 650px;
+    border: 1px solid #dddddd;
+    margin: 0px 0px 150px 0px;
+    padding: 20px 20px 30px 25px;
+    position: relative;
+    top: 90px;
+    z-index: 0;
+}
+
+.connect {
+    float: left;
+    background: #ffffff;
+    height: 100%;
+		width: 20%;
+    max-width: 270px;
+    border: 1px #dddddd;
+    border-color: #dddddd;
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px 20px 30px 25px;
+    position: relative;
+    z-index: 0;
+    left: 30px;
+    top: 90px;
+ }
+
+/* ALL divs in the footer of the page */
+ .bottom {
+	clear:both;
+	background-color: #666666;
+    height: 70px;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #CCCCCC;
+    width: 100%;
+    border-top: 5px solid #4aaaa5;
+    margin-top: -50px;
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    bottom: -15px;
+    vertical-align: middle;
+    line-height: 70px;
+}
+
+/* OTHER STYLING! */
+p, label {
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    padding: 3px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h5 {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #CCC;
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 5px 15px 5px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #CCCCCC;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+input {
+    width: 100%;
+    height: 20px;
+    margin-bottom: 5px;
+    break-after: always;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: 1px solid #CCC;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 12px;
+    color: #FFFFFF;
+    height: 30px;
+    width: 75px;
+    cursor: pointer;
+    border-radius: 0px;
+    padding: 3px;
+    margin-top: 5px;
+}
+
+input::placeholder {
+  color: #CCC;
+  padding-left: 5px;
+}
+
+.grayborder {
+    border: 1;
+    border-top: 1.5px solid #CCC;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.grayborderlight {
+    border: 1;
+    border-top: 1px solid #EEEEEE;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.icons {
+    height: 50px;
+    width: 50px;
+    padding: 2px;
+}
+
+.imagecaption {
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+}
+.tealtext {
+    color: #4aaaa5;
+    background-color: #ffffff;
+ }
+
+
+.imagebox {
+    width: 240px;
+    height: 180px;
+    float: left;
+    margin: 0px 25px 25px 0px;
+    position: relative;
+}
+
+.imagetext {
+    background-color: #4aaaa5;
+    color: white;
+    text-align: center;
+    width: 240px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    line-height: 5px;
+}
+
+.pic {
+    width: 240px;
+    height: 180px;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#dogspic {
+    max-width:400px;
+    max-height:300px;
+    float: bottom;
+    padding: 10px 0px 0px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#lissapic {
+    max-width: 180px;
+    max-height: 230px;
+    float: left;
+    padding: 15px 15px 5px 0px;
+}
