@@ -43,8 +43,7 @@ section {
 	clear: both;
     padding: 30px 10% 30px 10%;
     margin: 0;
-		max-width; 960px
-    position: static;
+    display: inline-block;
 }
 
 .main {
@@ -247,4 +246,122 @@ input::placeholder {
     max-height: 230px;
     float: left;
     padding: 15px 15px 5px 0px;
+}
+
+
+/* MEDIA QUERIES */
+
+/* 640px */
+
+@media screen and (max-width: 640px) {
+
+.myname {
+    width: 100%;
+    margin: 0px;    
+}
+
+.centeralign {
+    width: 100%;
+    text-align: center;
+}
+
+.navmenu {
+    clear:both;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 2px solid #CCCCCC;
+    position:relative;
+}
+
+.middle {
+    padding: 0px 2.5% 0px 2.5%;
+}
+
+.main {
+    height: 100%;
+    width: 90%;
+    max-width: 650px;
+    margin: 30px 0px 15px 0px;
+}
+
+.connect {
+    height: 100%;
+    width: 90%;
+    max-width: 650px;
+    margin: 15px 0px 150px -30px;
+
+ }
+
+li {
+    float: left;
+    border-right: 0px;
+    width: 33.3%;
+}
+
+.imagebox {
+    width: 100%;
+    max-width: 500px;
+    height: 100%;
+    margin: 0px 25px 25px 0px;
+    position: relative;
+}
+
+.imagetext {
+    width: 100%;
+    max-width: 500px;
+    height: 50px;
+    position: absolute;
+    bottom: 10px;
+    line-height: 5px;
+}
+
+.pic {
+    width: 100%;
+        max-width: 500px;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+}
+/* 768px */
+
+@media screen and (max-width: 768px) and (min-width: 641px) {
+
+.myname {
+    margin-left: 2.5%;
+}
+
+.navmenu {
+    padding: 35px 5% 25px 50px;
+    margin-right: 0%;
+    text-align: center;
+    float: right;
+}
+
+.middle {
+    padding: 0px 2.5% 0px 2.5%;
+}
+
+.main {
+    height: 100%;
+    width: 90%;
+    max-width: 650px;
+    margin: 10px 0px 15px 0px;
+    margin-left: 0%;
+}
+
+.connect {
+    height: 100%;
+    width: 90%;
+    max-width: 650px;
+    margin: 15px 0px 150px -30px;
+
+}
+
+
+/* 980px */
+
+@media screen and (max-width: 980px) and (min-width: 769px) {
 }
